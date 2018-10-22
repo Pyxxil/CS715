@@ -356,11 +356,11 @@ void SetupParticles(int np, int ns)
     }
 
     physical.gravitational = -9.8;
-    physical.viscousdrag = 0.0000000000000000001;
+    physical.viscousdrag = 0.1;
 }
 
 /*
- *
+ * Initialise the system with the number of particles wanted, as well as the springs.
  */
 void InitialiseSystem(void)
 {
